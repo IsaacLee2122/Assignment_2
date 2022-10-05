@@ -1,4 +1,5 @@
-Book.java
+//Isaac Lee,  Create a Book class, so that it encapsulates the concept of a book that can be sold in a bookstore. Among the fields defined by the Book class, there must be the genre field (understood as a literary genre). Let’s make it possible for a book to be associated with only a literary genre included between a set of predefined literary genres, for example the set consisting of the genres: software, novel, thriller, essay, manual. Create a class that tests that Book objects work correctly.//
+
 
 
 public class Book {
@@ -94,7 +95,7 @@ arrayList.add(b1);
 
 
 for(Book book: arrayList) {
-System.out.println(book); // Will invoke overrided `toString()` method
+System.out.println(book); 
 }
 
 
