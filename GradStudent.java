@@ -25,7 +25,7 @@ public void dropAll()
 {
 courses.clear();
 }
-//REturns course count
+//Returns course count
 public int getCourseCount()
 {
 return courses.size();
@@ -47,8 +47,6 @@ return 1450*courses.size();
 public ArrayList<String> getCourses() {
 return courses;
 }
-
-
 
 }
 GradStudent.java
