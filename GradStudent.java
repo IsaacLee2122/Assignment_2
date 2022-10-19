@@ -2,53 +2,6 @@ Student.java
 
 import java.util.ArrayList;
 
-public class Student {
-//Instance variables
-private String name;
-private int year;
-private ArrayList<String> courses;
-
-//Constructor
-public Student(String name, int year) {
-super();
-courses=new ArrayList<String>();
-this.name = name;
-this.year = year;
-}
-//Adds a course
-public void addCourse(String name)
-{
-courses.add(name);
-}
-//Clears all courses
-public void dropAll()
-{
-courses.clear();
-}
-//Returns course count
-public int getCourseCount()
-{
-return courses.size();
-}
-
-public String getName() {
-return name;
-}
-
-public int getYear() {
-return year;
-}
-
-public double getTuition()
-{
-return 1450*courses.size();
-}
-//Returns course list
-public ArrayList<String> getCourses() {
-return courses;
-}
-
-}
 GradStudent.java
 
 public class GradStudent extends Student{
